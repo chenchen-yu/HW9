@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="topnav">
+    <a class="active" href="#home">Lattitude</a>
+    <a href="#data">Data</a>
+    <a href="#comparison">Comparison</a>
+    <a href="visualization page_Fig1.html">Plots</a>
+  </div>
+
+  <header class="header">
+  </header>
+
+  <div class="row">
+    <!--First Column in this Row-->
+    <div class="col-md-8">
+      <div class="box1">
+        <strong><h1>Summary: Latitude vs. X</h1></strong>
+        <hr>
+        <section id="figure">
+          <!-- <h2 id="bio-name">Your Name</h2> -->
+          <img id="intro-image" src="../Resources/assets/images/Fig1.png" alt="Fig1">
+        </section>
+        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis,
+            we first pulled data from the OpenWeatherMap API to assemble  dataset on over 500 cities.</p>
+        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:
+           temperature, cloudiness, wind speed, and humidity. This site provides the source data and Visualizations created as part of the analysis,
+           as well as explanations and descriptions of any trends and correlations witnessed.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="box2">
+        <h2>Visualizations</h2>
+        <hr>
+        <img id="image" src="../Resources/assets/images/Fig1.png" alt="Fig1">
+        <img id="image" src="../Resources/assets/images/Fig2.png" alt="Fig2">
+        <img id="image" src="../Resources/assets/images/Fig3.png" alt="Fig3">
+        <img id="image" src="../Resources/assets/images/Fig4.png" alt="Fig4">
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
