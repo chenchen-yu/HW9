@@ -141,7 +141,7 @@ h2 {
 
 /* comparison.html */
 .box_comparison {
-  height: 1150px;
+  height: 630px;
   padding: 20px;
   color: #2C3E50;
   background: #FFFFFF;
@@ -169,4 +169,12 @@ h2 {
   width: 300px;
   height: 200px;
   margin-right: 0px;
+}
+
+/* data.html */
+.box_data {
+  height: 15550px;
+  padding: 20px;
+  color: #2C3E50;
+  background: #FFFFFF;
 }
