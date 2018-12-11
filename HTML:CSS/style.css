@@ -3,6 +3,14 @@
  */
 
 /* Styling for HTML elements */
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -40,9 +48,9 @@ h2 {
 }
 
 /* Selecting elements by class */
-.container {
-  width: 1024px;
-  margin: 0 auto;
+.container{
+  min-height: 100%;
+  margin-bottom: 0px;
 }
 
 .box1 {
@@ -53,7 +61,7 @@ h2 {
 }
 
 .box2 {
-  height: 380px;
+  height: 410px;
   padding: 20px;
   color: #2C3E50;
   background: #FFFFFF;
@@ -93,28 +101,12 @@ h2 {
 }
 
 /* Selecting elements by ID */
-#main-bio,
-#contact-info,
 #intro-image {
   float: left;
 }
 
 #figure {
   position: relative;
-}
-
-#bio-name {
-  position: absolute;
-  top: 150px;
-  left: 30px;
-}
-
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
 }
 
 #intro-image {
@@ -124,8 +116,8 @@ h2 {
 }
 
 #image {
-  width: 125px;
-  height: 125px;
+  width: 150px;
+  height: 150px;
   margin-right: 5px;
 }
 
@@ -178,3 +170,19 @@ h2 {
   color: #2C3E50;
   background: #FFFFFF;
 }
+
+p.copyright {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer {
+ display: block;
+ height:30px;
+ width: 100%;
+ background: linear-gradient(to top, #7B7E7D 80%, #1ABC9C 20%);
+ }
+
+ .nav-select {
+   display:none
+ }
